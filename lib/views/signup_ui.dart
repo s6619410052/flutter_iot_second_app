@@ -12,7 +12,7 @@ class _SignupUiState extends State<SignupUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[50],
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(40.0),
@@ -94,10 +94,10 @@ class _SignupUiState extends State<SignupUi> {
                       borderRadius: BorderRadius.circular(8.0),
                     ),
                     prefixIcon: Icon(
-                      FontAwesomeIcons.fingerprint,
+                      FontAwesomeIcons.envelope,
                       color: Colors.grey,
                     ),
-                    hintText: 'Password',
+                    hintText: 'E-Mail',
                     hintStyle: TextStyle(
                       color: Colors.grey,
                     ),
@@ -105,27 +105,51 @@ class _SignupUiState extends State<SignupUi> {
                       vertical: 25.0,
                       horizontal: 20.0,
                     ),
-                    suffixIcon: IconButton(
-                      onPressed: () {},
-                      icon: Icon(
-                        Icons.visibility_off,
-                        color: Colors.grey,
-                      ),
-                    ),
                   ),
                 ),
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'Forget Password?',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontSize: 18.0,
+                SizedBox(
+                  height: 20.0,
+                ),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                  ),
+                      prefixIcon: Icon(
+                        FontAwesomeIcons.hashtag,
+                        color: Colors.grey,
+                      ),
+                      hintText: 'Phone No',
+                      hintStyle: TextStyle(
+                        color: Colors.grey,
+                      ),
+                      contentPadding: EdgeInsets.symmetric(
+                        vertical: 25.0,
+                        horizontal: 20.0,
+                      )),
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(8.0),
+                      ),
+                      prefixIcon: Icon(
+                        FontAwesomeIcons.fingerprint,
+                        color: Colors.grey,
+                      ),
+                      hintText: 'Password',
+                      hintStyle: TextStyle(
+                        color: Colors.grey,
+                      ),
+                      contentPadding: EdgeInsets.symmetric(
+                        vertical: 25.0,
+                        horizontal: 20.0,
+                      )),
                 ),
                 SizedBox(
                   height: 20.0,
@@ -133,7 +157,7 @@ class _SignupUiState extends State<SignupUi> {
                 ElevatedButton(
                   onPressed: () {},
                   child: Text(
-                    'LOGIN',
+                    'SINGUP',
                     style: TextStyle(
                       color: Colors.white,
                     ),
