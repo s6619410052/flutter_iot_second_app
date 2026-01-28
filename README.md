@@ -1,16 +1,11 @@
-# flutter_iot_second_app
+<img width="1170" height="2532" alt="localhost_10950_(iPhone 12 Pro) (1)" src="https://github.com/user-attachments/assets/2f9d71f9-3c4d-4ff5-b217-47176e920424" />## Mobile Application with flutter&Data
 
-A new Flutter project.
+## UI Only for HomeUi, SigninUi, signupUi
 
-## Getting Started
+<img width="250" src="https://github.com/user-attachments/assets/5001da5a-501d-46dc-8070-317d1185199f" />
 
-This project is a starting point for a Flutter application.
+<img width="250"  src="https://github.com/user-attachments/assets/e5673fa8-2c70-4f21-b2a2-6704c3834816" />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="250"  src="https://github.com/user-attachments/assets/77f1e335-c8dc-4cdc-b051-a59ae41ec580" />
